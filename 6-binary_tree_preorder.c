@@ -3,6 +3,7 @@
 /**
  * binary_tree_preorder - Goes through the tree in preorder and prints n
  * @tree: pointer to head of tree
+ * @func: pointer to print function
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
